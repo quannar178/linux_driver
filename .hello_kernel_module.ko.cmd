@@ -1,0 +1,1 @@
+cmd_/home/narhint/my_driver/hello_kernel_module.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/narhint/my_driver/hello_kernel_module.ko /home/narhint/my_driver/hello_kernel_module.o /home/narhint/my_driver/hello_kernel_module.mod.o;  true
